@@ -1,0 +1,48 @@
+/* গুগল ফন্ট ইম্পোর্ট */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+/* বেসিক স্টাইল */
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fdf5f5;
+    color: #444;
+}
+
+/* নেভিগেশন বার */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #d14d72;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text
